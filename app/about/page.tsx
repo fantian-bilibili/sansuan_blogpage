@@ -28,10 +28,11 @@ export default function About() {
                 </div>
                 <div className="text-center md:text-left">
                     <h1 className="text-3xl font-bold mb-2 text-gray-900 dark:text-white">{siteConfig.author}</h1>
-                    <p className="text-blue-600 dark:text-blue-400 font-mono text-sm mb-4">Full Stack Developer</p>
+                    <p className="text-blue-600 dark:text-blue-400 font-mono text-sm mb-4">Student Developer</p>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed max-w-lg">
-                        热衷于探索前沿 Web 技术，喜欢折腾 Next.js, React 和 AI 工具。
-                        我相信优秀的代码不仅要运行高效，更要写得优雅。
+                        目前就读于NPUW_EE的学生开发者，热衷于深度学习、机器视觉、ROS等领域。
+                        因为生活有点牛马，所以只好随机更新了。
+                        anyway, 欢迎你能来看我blog！
                     </p>
                     
                     <div className="flex justify-center md:justify-start gap-4 mt-6">
@@ -49,7 +50,7 @@ export default function About() {
                         <i className="fas fa-code text-blue-500"></i> 技术栈
                     </h3>
                     <div className="flex flex-wrap gap-2">
-                        {['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'Git'].map(skill => (
+                        {['cxx', 'python','deep learning','machine vision','ROS','Git'].map(skill => (
                             <span key={skill} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-md text-xs font-medium border border-gray-200 dark:border-gray-700">
                                 {skill}
                             </span>
