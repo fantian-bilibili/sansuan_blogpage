@@ -1,8 +1,8 @@
 ---
 title: "我的第一篇全栈博客"
-date: "2024-03-21"
-category: "随笔"
-description: "这是通过 Next.js 和 Markdown 构建的现代化博客系统..."
+date: "2025-11-27"
+category: "LLM"
+description: "作为一个只用prompt表达我的想法，让Gemini3.0pro完整构建的博客页面，这个完成度可以说非常夸张了......"
 ---
 
 ## 你好，世界！
