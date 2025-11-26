@@ -1,8 +1,9 @@
 "use client";
 
+import * as React from "react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import { type ThemeProviderProps } from "next-themes/dist/types";
 
-export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
+// 使用 React.ComponentProps 自动获取组件的类型，这样就不会报错了
+export function ThemeProvider({ children, ...props }: React.ComponentProps<typeof NextThemesProvider>) {
   return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 }
